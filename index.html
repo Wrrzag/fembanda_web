@@ -1,0 +1,117 @@
+<!doctype html>
+<html class="no-js" lang="ca">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="page-title">Fem Banda | Benvinguts</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+    <script src="js/vendor/modernizr.js"></script>
+
+    <script src="js/vendor/jquery.js"></script>
+    <!--<script src="js/jquery.countdown.js"></script>-->
+
+    <script src="js/templates.js"></script>
+    <script src="js/langui.js"></script>
+    <script src="js/news.js"></script>
+
+    <script>
+      $(function(){
+        templateSetup();
+
+        defaultLang = 'ca';
+        lang = "";
+
+        languageSetup();
+        newsSetup();
+
+        $('.pics').slick({
+          dots: false,
+          arrows: false,
+          pauseOnHover: false,
+          autoplay: true,
+          speed: '800',
+          autoplaySpeed: '5000'
+        });
+
+        // $("#countdown").countdown("2015/01/01", function(event) {
+        //   $(this).text(
+        //     event.strftime('%D days %H:%M:%S')
+        //   );
+        // });
+      });
+    </script>
+  </head>
+  <body class="body-back">
+    <div id="header"></div>
+
+    <div>
+    <!-- SLIDES -->
+    <!-- <div class="row">
+    	<div class="large-12 columns"> -->
+        <div id="pictures" class="pics" style="height:75%">
+          <div><img src="http://placehold.it/1600x640&text=[img]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img2]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img3]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img4]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img5]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img6]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img7]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img8]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img9]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img10]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img11]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img12]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img13]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img14]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img15]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img16]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img17]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img18]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img19]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img20]"></div>
+          <div><img src="http://placehold.it/1600x640&text=[img21]"></div>
+        </div>
+  	  <!-- </div>
+    </div> -->
+    
+   
+
+
+
+    
+      <div class="row" style="position:relative">
+        <div class="bgwhite" id="overlap" style="margin-top: -250px; position:absolute;">
+        	<div class="">
+            <div class="large-12 columns">
+              <h1 class="last-news">Últimes notícies</h1>
+              <hr/>
+            </div>
+          </div>
+         
+          <div class=" ">
+            <div class="large-9 columns bgwhite" role="content" >
+              <!-- ACTUAL CONTENT -->
+              <div id="posts"></div>
+              <h4><a href="#" class="more-news-label right">+ NOTICIES</a></h4>
+            </div>
+             
+            <!-- LATERAL BAR -->
+            <aside class="large-3 columns" id="lateral-bar"></aside>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="" id="footer"></footer>
+
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      // $(document).foundation();
+    </script>
+  </body>
+</html>

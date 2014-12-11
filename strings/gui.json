@@ -1,0 +1,44 @@
+{
+    "ca" : {
+        "page-title" : "foundation",
+
+        "news-label" : "Notícies",
+        "festival-label" : "Festival",
+        "participants-label" : "Participants",
+        "basis-label" : "Bases",
+        "enrolment-label": "Inscripció",
+        "participant-bands-label" : "Bandes participants",
+        "organization-label" : "Organització",
+        "programme-label" : "Programa",
+        "multimedia-label" : "Multimèdia",
+        "pictures-label" : "Fotos",
+        "videos-label" : "Videos",
+        "contact-label" : "Contacte",
+        "calendar-label" : "Calendari",
+        "agenda-label" : "Agenda",
+        "more-events-label" : "Més esdeveniments",
+        "more-news-label" : "Més notícies",
+        "links-label" : "Enllaços",
+        "lodging-label" : "Allotjament",
+        "band-contest-label" : "Concurs de Bandes",
+        "marching-band-contest-label" : "Concurs de Marching Bands",
+        "band-festival-label" : "Festival de Bandes",
+
+        "last-news" : "Últimes notícies",
+        
+        "copyright-statement" : "© 2014 Banda Municipal de Lleida?Fem Banda?",
+        "developed-by" : "Desenvolupat per"
+    },
+    "es" : {
+        
+    },
+    "en" : {
+        
+    },
+    "de" : {
+
+    },
+    "fr" : {
+
+    }
+}
