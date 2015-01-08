@@ -18,19 +18,63 @@ function sendRegistrationForm(){
                 "Numero de musics: " + $("#musician-num").val() + "\n"
 
 
-    var link = "mailto:bandamunicipal@paeria.cat"
-             + "&subject=" + "Inscripcio Fem Banda de " + encodeURI($("#mail").val())
-             + "&body=" + encodeURI(text)
-    ;
+    $.ajax({
+      type: "POST",
+      url: "https://mandrillapp.com/api/1.0/messages/send.json",
+      data: {
+        'key': '_S657t5eRNgrwUl35YiAzg',
+        'message': {
+          'from_email': $("#mail").val(),
+          'to': [
+              {
+                'email': 'wrrzag666@gmail.com',
+               // 'name': 'RECIPIENT NAME (OPTIONAL)',
+                'type': 'to'
+              }
+            ],
+          'autotext': 'true',
+          'subject': "Inscripció Fem Banda de " + $("#representing").val(),
+          'html': "Dades de la inscripció: <br/>" + text
+        }
+      }
+     }).done(function(response) {
+       console.log(response); // if you're into that sorta thing
+ });
+    // var link = "mailto:bandamunicipal@paeria.cat"
+    //          + "&subject=" + "Inscripcio Fem Banda de " + encodeURI($("#mail").val())
+    //          + "&body=" + encodeURI(text)
+    // ;
 
-    window.location.href = link;
+    // window.location.href = link;
 }
 
 function sendContactForm(){
-    var link = "mailto:bandamunicipal@paeria.cat"
-             + "&subject=" + encodeURI("Contacte Fem Banda de " + encodeURI($("#mail").val()))
-             + "&body=" + encodeURI($("#msg").val())
-    ;
+    $.ajax({
+      type: "POST",
+      url: "https://mandrillapp.com/api/1.0/messages/send.json",
+      data: {
+        'key': '_S657t5eRNgrwUl35YiAzg',
+        'message': {
+          'from_email': $("#mail").val(),
+          'to': [
+              {
+                'email': 'wrrzag666@gmail.com',
+               // 'name': 'RECIPIENT NAME (OPTIONAL)',
+                'type': 'to'
+              }
+            ],
+          'autotext': 'true',
+          'subject': "Contacte Fem Banda de " + $("#mail").val(),
+          'html': "Ha enviat el següent missatge: <br/>" + $("#msg").val()
+        }
+      }
+     }).done(function(response) {
+       console.log(response); // if you're into that sorta thing
+ });
+    // var link = "mailto:bandamunicipal@paeria.cat"
+    //          + "&subject=" + encodeURI("Contacte Fem Banda de " + encodeURI($("#mail").val()))
+    //          + "&body=" + encodeURI($("#msg").val())
+    // ;
 
-    window.location.href = link;
+    // window.location.href = link;
 }
