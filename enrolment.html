@@ -1,0 +1,196 @@
+<!doctype html>
+<html class="no-js" lang="ca">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="page-title">Fem Banda | Benvinguts</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+    <script src="js/vendor/modernizr.js"></script>
+
+    <script src="js/vendor/jquery.js"></script>
+    <!--<script src="js/jquery.countdown.js"></script>-->
+
+    <script src="js/templates.js"></script>
+    <script src="js/langui.js"></script>
+    <script src="js/forms.js"></script>
+
+    <script>
+      $(function(){
+        templateSetup();
+
+        defaultLang = 'ca';
+        lang = "";
+
+        languageSetup();
+
+        $('.pics').slick({
+          dots: false,
+          arrows: false,
+          pauseOnHover: false,
+          autoplay: true,
+          speed: '800',
+          autoplaySpeed: '5000'
+        });
+
+        // $("#countdown").countdown("2015/01/01", function(event) {
+        //   $(this).text(
+        //     event.strftime('%D days %H:%M:%S')
+        //   );
+        // });
+      });
+    </script>
+  </head>
+  <body class="body-back">
+    <div id="header"></div>
+
+    <div>
+      <div class="row" >
+        <div class="bgwhite">
+        	<div class="">
+            <div class="large-12 columns">
+              <h1 class="enrolment-label">Inscripció</h1>
+              <hr/>
+            </div>
+          </div>
+         
+          <div class="row">
+            <div class="large-9 columns bgwhite" role="content" >
+              <form data-abide onsubmit="sendRegistrationForm();">
+                <div class="name-field">
+                  <label> <span class="sir-madam-label">Sr. Sra.</span>
+                    <input type="text" placeholder="" id="sir-madam" required/>
+                  </label>
+                  <small class="error name-error">Name is required and must be a string.</small>
+                </div>
+                <div class="representing-field">
+                  <label> <span class="representing-label">En representació de</span>
+                    <input type="text" placeholder="" id="representing" required/>
+                  </label>
+                  <small class="error representing-error">Name is required and must be a string.</small>
+                </div>
+                <div class="as-field">
+                  <label> <span class="as-label">En qualitat de</span>
+                    <input type="text" placeholder="" id="as" required/>
+                  </label>
+                  <small class="error as-error">Name is required and must be a string.</small>
+                </div>
+                <div class="social-dom">
+                  <label> <span class="social-dom-label">Amb domicili Social</span>
+                    <input type="text" placeholder="Domicili Social" id="social-dom" required/>
+                  </label>
+                  <small class="error social-dom-error">Name is required and must be a string.</small>
+                </div>
+                <div class="row">
+                  <div class="columns large-2 number">
+                    <label> <span class="number-label">Num.</span>
+                      <input type="text" placeholder="Número" id="number" required/>
+                    </label>
+                    <small class="error number-error">Name is required and must be a string.</small>
+                  </div>
+                  <div class="columns large-2 floor">
+                    <label> <span class="floor-label">Pis</span>
+                      <input type="text" placeholder="Pis" id="floor" required/>
+                    </label>
+                    <small class="error floor-error">Name is required and must be a string.</small>
+                  </div>
+                  <div class="columns large-4 town">
+                    <label> <span class="town-label">Localitat</span>
+                      <input type="text" placeholder="Localitat" id="town" required/>
+                    </label>
+                    <small class="error town-error">Name is required and must be a string.</small>
+                  </div>
+                  <div class="columns large-4 postal-code">
+                    <label> <span class="postal-code-label">C. P.</span>
+                      <input type="text" placeholder="Codi Postal" id="postal-code" required/>
+                    </label>
+                    <small class="error postal-code-error">Name is required and must be a string.</small>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="columns large-5 province">
+                    <label> <span class="province-label">Província</span>
+                      <input type="text" placeholder="Província" id="province" required/>
+                    </label>
+                    <small class="error province-error">Name is required and must be a string.</small>
+                  </div>
+                  <div class="columns large-7 cif">
+                    <label> <span class="cif-label">C.I.F.</span>
+                      <input type="text" placeholder="CIF" id="CIF" required/>
+                    </label>
+                    <small class="error cif-error">Name is required and must be a string.</small>
+                  </div>
+                </div>
+                <div class="phone">
+                  <label> <span class="phone-label">Telèfons</span>
+                    <input type="text" placeholder="Telèfons" id="phone" required/>
+                  </label>
+                  <small class="error phone-error">Name is required and must be a string.</small>
+                </div>
+                <div class="row">
+                  <div class="columns large-5 fax">
+                    <label> <span class="fax-label">Fax</span>
+                      <input type="text" placeholder="Fax" id="fax"/>
+                    </label>
+                    <small class="error fax-error">Name is required and must be a string.</small>
+                  </div>
+                  <div class="columns large-7 mail">
+                    <label> <span class="mail-field-label">e-mail</span>
+                      <input type="email" placeholder="e-mail" id="mail" required/>
+                    </label>
+                    <small class="error mail-error">Name is required and must be a string.</small>
+                  </div>
+                </div>
+                <div class="webpage">
+                  <label> <span class="webpage-label">Pàgina web</span>
+                    <input type="url" placeholder="Pàgina web" id="webpage"/>
+                  </label>
+                  <small class="error webpage-error">Name is required and must be a string.</small>
+                </div>
+
+
+                <div>
+                  <label class="module-label">Mòdul</label>
+                  <input type="radio" name="module" value="A" id="moduleA"><label for="moduleA" class="module-a">Mòdul A</label>
+                  <input type="radio" name="module" value="B" id="moduleB"><label for="moduleB" class="module-b">Mòdul B</label>
+                  <input type="radio" name="module" value="C" id="moduleC"><label for="moduleC" class="module-c">Mòdul C</label>
+                  <input checked type="radio" name="module" value="CAP" id="none"><label for="none" class="none">Cap</label>
+                </div>
+
+
+                <div class="conductor-name">
+                  <label> <span class="conductor-name-label">Nom del director/s</span>
+                    <input type="text" placeholder="Director/s" id="conductor" required/>
+                  </label>
+                  <small class="error conductor-name-error">Name is required and must be a string.</small>
+                </div>
+                <div class="musician-num">
+                  <label> <span class="musician-num-label">Número de músics</span>
+                    <input type="text" placeholder="Número de músics" id="musician-num" required/>
+                  </label>
+                  <small class="error musician-num-error">Name is required and must be a string.</small>
+                </div>
+
+                <button type="submit" class="submit">Submit</button>
+              </form>
+            </div>
+             
+            <!-- LATERAL BAR -->
+            <aside class="large-3 columns" id="lateral-bar"></aside>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="" id="footer"></footer>
+
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      // $(document).foundation();
+    </script>
+  </body>
+</html>

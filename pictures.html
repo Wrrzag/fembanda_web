@@ -30,7 +30,8 @@
             slidesToScroll: 1,
             arrows: false,
             fade: true,
-            asNavFor: '.thumbnails'
+            asNavFor: '.thumbnails',
+            adaptiveHeight: true
         });
         $('.thumbnails').slick({
             slidesToShow: 3,
@@ -38,7 +39,9 @@
             asNavFor: '.pics',
             dots: true,
             centerMode: true,
-            focusOnSelect: true
+            focusOnSelect: true,
+            adaptiveHeight: true,
+            centerMode: true
         });
       });
     </script>
@@ -51,7 +54,7 @@
       <div class="bgwhite">
         <div class="">
           <div class="large-12 columns">
-            <h1 id="pictures-label">Fotos</h1>
+            <h1 class="pictures-label">Fotos</h1>
             <hr/>
           </div>
         </div>
@@ -59,7 +62,19 @@
         <div class="row ">
           <div class="large-9 columns bgwhite" role="content" >
             <div id="pictures" class="pics">
-              <div><img src="http://placehold.it/1280x960&text=[img]"></div>
+              <div><img data-lazy="img/Aeroport Lleida-Alguaire.jpg"></div>
+              <div><img data-lazy="img/Bona Gent.jpg"></div>
+              <div><img data-lazy="img/Aplec del Caragol.jpg"></div>
+              <div><img data-lazy="img/BML 150 anys Camps Elisis.jpg"></div>
+              <div><img data-lazy="img/Campanar de la Seu Vella.jpg"></div>
+              <div><img data-lazy="img/La Llotja de Lleida exterior.jpg"></div>
+              <div><img data-lazy="img/La Seu Vella.jpg"></div>
+              <div><img data-lazy="img/Lo Marraco.jpg"></div>
+              <div><img data-lazy="img/moros.jpg"></div>
+              <div><img data-lazy="img/Nou Campus Universitari Cappont.jpg"></div>
+              <div><img data-lazy="img/paeria.jpg"></div>
+              <div><img data-lazy="img/Parc dels Camps Elisis.jpg"></div>
+              <!-- <div><img src="http://placehold.it/1280x960&text=[img]"></div>
               <div><img src="http://placehold.it/1280x960&text=[img2]"></div>
               <div><img src="http://placehold.it/1280x960&text=[img3]"></div>
               <div><img src="http://placehold.it/1280x960&text=[img4]"></div>
@@ -79,10 +94,22 @@
               <div><img src="http://placehold.it/1280x960&text=[img18]"></div>
               <div><img src="http://placehold.it/1280x960&text=[img19]"></div>
               <div><img src="http://placehold.it/1280x960&text=[img20]"></div>
-              <div><img src="http://placehold.it/1280x960&text=[img21]"></div>
+              <div><img src="http://placehold.it/1280x960&text=[img21]"></div> -->
             </div>
             <div id="thumbnails" class="thumbnails">
-              <div><img style="width:200px" src="http://placehold.it/1280x960&text=[img]"></div>
+              <div><img style="width:200px; height:150px;" src="img/Aeroport Lleida-Alguaire.jpg"></div>
+              <div><img style="width:200px; height:150px;" src="img/Bona Gent.jpg"></div>
+              <div><img style="width:200px; height:150px;" src="img/Aplec del Caragol.jpg"></div>
+              <div><img style="width:200px; height:150px;" src="img/BML 150 anys Camps Elisis.jpg"></div>
+              <div><img style="width:200px; height:150px;" src="img/Campanar de la Seu Vella.jpg"></div>
+              <div><img style="width:200px; height:150px;" src="img/La Llotja de Lleida exterior.jpg"></div>
+              <div><img style="width:200px; height:150px;" src="img/La Seu Vella.jpg"></div>
+              <div><img style="width:200px; height:150px;" src="img/Lo Marraco.jpg"></div>
+              <div><img style="width:200px; height:150px;" src="img/moros.jpg"></div>
+              <div><img style="width:200px; height:150px;" src="img/Nou Campus Universitari Cappont.jpg"></div>
+              <div><img style="width:200px; height:150px;" src="img/paeria.jpg"></div>
+              <div><img style="width:200px; height:150px;" src="img/Parc dels Camps Elisis.jpg"></div>
+              <!-- <div><img style="width:200px" src="http://placehold.it/1280x960&text=[img]"></div>
               <div><img style="width:200px" src="http://placehold.it/1280x960&text=[img2]"></div>
               <div><img style="width:200px" src="http://placehold.it/1280x960&text=[img3]"></div>
               <div><img style="width:200px" src="http://placehold.it/1280x960&text=[img4]"></div>
@@ -102,7 +129,7 @@
               <div><img style="width:200px" src="http://placehold.it/1280x960&text=[img18]"></div>
               <div><img style="width:200px" src="http://placehold.it/1280x960&text=[img19]"></div>
               <div><img style="width:200px" src="http://placehold.it/1280x960&text=[img20]"></div>
-              <div><img style="width:200px" src="http://placehold.it/1280x960&text=[img21]"></div>
+              <div><img style="width:200px" src="http://placehold.it/1280x960&text=[img21]"></div> -->
             </div>
           </div>
        
@@ -113,7 +140,7 @@
     </div>
 
 
-    <footer class="row" id="footer"></footer>
+    <footer id="footer"></footer>
     
     
     <script type="text/javascript" src="slick/slick.min.js"></script>

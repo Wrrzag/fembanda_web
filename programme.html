@@ -1,0 +1,75 @@
+<!doctype html>
+<html class="no-js" lang="ca">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="page-title">Fem Banda | Benvinguts</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+    <script src="js/vendor/modernizr.js"></script>
+
+    <script src="js/vendor/jquery.js"></script>
+    <!--<script src="js/jquery.countdown.js"></script>-->
+
+    <script src="js/templates.js"></script>
+    <script src="js/langui.js"></script>
+    <script src="js/events.js"></script>
+
+    <script>
+      $(function(){
+        templateSetup();
+
+        defaultLang = 'ca';
+        lang = "";
+        step = 5;
+
+        languageSetup();
+        eventsSetup(0, step, true);
+      });
+
+      function getPage(newPage) {
+        newPage = newPage - 1;
+        newsSetup(step*newPage, step*newPage+step, true);
+      }
+    </script>
+  </head>
+  <body class="body-back">
+    <div id="header"></div>
+
+    <div>
+      <div class="row" >
+        <div class="bgwhite">
+        	<div class="">
+            <div class="large-12 columns">
+              <h1 class="programme-label">Notícies</h1>
+              <hr/>
+            </div>
+          </div>
+         
+          <div class="row">
+            <div class="large-9 columns bgwhite" role="content" >
+              <!-- ACTUAL CONTENT -->
+              <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=5gr9ovtiptspgi4njsqvqutuds%40group.calendar.google.com&amp;color=%238C500B&amp;ctz=Europe%2FMadrid" style=" border-width:0 " width="750" height="600" frameborder="0" scrolling="no"></iframe>
+              <div id="posts"></div>
+              <h4 id="pagination"><a href="#">PAGINACIÓ</a></h4>
+            </div>
+             
+            <!-- LATERAL BAR -->
+            <aside class="large-3 columns" id="lateral-bar"></aside>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="" id="footer"></footer>
+
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      // $(document).foundation();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+<!doctype html>
+<html class="no-js" lang="ca">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="page-title">Fem Banda | Benvinguts</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+    <script src="js/vendor/modernizr.js"></script>
+
+    <script src="js/vendor/jquery.js"></script>
+    <!--<script src="js/jquery.countdown.js"></script>-->
+
+    <script src="js/templates.js"></script>
+    <script src="js/langui.js"></script>
+    <script src="js/forms.js"></script>
+
+    <script>
+      $(function(){
+        templateSetup();
+
+        defaultLang = 'ca';
+        lang = "";
+        step = 3;
+
+        languageSetup();
+      });
+    </script>
+  </head>
+  <body class="body-back">
+    <div id="header"></div>
+
+    <div>
+      <div class="row" >
+        <div class="bgwhite">
+        	<div class="">
+            <div class="large-12 columns">
+              <h1 class="contact-label">Contacte</h1>
+              <hr/>
+            </div>
+          </div>
+         
+          <div class="row">
+            <div class="large-9 columns bgwhite" role="content" >
+              <!-- ACTUAL CONTENT -->
+              <div id="contact"></div>
+              <h5 class="mailing-address-label">
+                Per contactar amb l'organització per correu ordinari us podeu adreçar a:
+              </h5>
+              <div class="large-centered columns large-6 text-center">
+                AAAAA
+              </div>
+
+              <h5 class="electronic-address-label">
+                També podeu contactar via e-mail mitjançant el formulari
+              </h5>
+              <form data-abide onsubmit="sendContactForm();">
+                <div>
+                  <label> <span class="mail-field-label">Adreça de contacte</span>
+                    <input type="email" placeholder="" id="mail" required/>
+                  </label>
+                  <small class="error mail-error">[i18n] El correu electrònic ha de ser vàlid.</small>
+                </div>
+                <div class="text-field-label">
+                  <label> <span class="message-field-label"> Missatge </span>
+                    <textarea placeholder="" rows="8" id="msg" required></textarea>
+                  </label>
+                  <small class="error text-error">[i18n] Text és necessari.</small>
+                </div>
+                <button type="submit" class="submit">Submit</button>
+              </form>
+            </div>
+             
+            <!-- LATERAL BAR -->
+            <aside class="large-3 columns" id="lateral-bar"></aside>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="" id="footer"></footer>
+
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      // $(document).foundation();
+    </script>
+  </body>
+</html>

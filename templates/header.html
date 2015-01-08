@@ -1,15 +1,16 @@
 <div>
   <div class="row" style="margin: 0px; max-width: 85rem;">
     <div class="left large-6">
-      <h1><a href="index.html" class="internal-link"><img src="http://placehold.it/650x256&amp;text=[LOGO]" /></a></h1>
+      <!-- <h1><a href="index.html" class="internal-link"><img src="http://placehold.it/650x256&amp;text=[LOGO]" /></a></h1> -->
+      <h1><a href="index.html" class="internal-link"><img src="img/logo.png" /></a></h1>
     </div>
     <div class="right">
       <ul class="right button-group">
-        <li><small><a href="#" class="link_ca">Català</a></li> &#160; | &#160;</small>
-        <li><small><a href="#" class="link_es">Castellano</a></li> &#160; | &#160;</small>
-        <li><small><a href="#" class="link_en">English</a></li> &#160; | &#160;</small>
-        <li><small><a href="#" class="link_de">Deutsch</a></li> &#160; | &#160;</small>
-        <li><small><a href="#" class="link_fr">Français</a></li></small>
+        <li><small><a href="#" class="link_ca">Català</a></small></li><small> &#160; | &#160;</small>
+        <li><small><a href="#" class="link_es">Castellano</a></small></li><small> &#160; | &#160;</small>
+        <li><small><a href="#" class="link_en">English</a></small></li><small> <!-- &#160; | &#160;</small>
+        <li><small><a href="#" class="link_de">Deutsch</a></small></li><small> &#160; | &#160;</small>
+        <li><small><a href="#" class="link_fr">Français</a></small></li><small></small> -->&nbsp;
       </ul>
     </div>
   </div>
@@ -26,7 +27,7 @@
     <nav class="top-bar" data-topbar role="navigation" data-options="alignment: center">
       <ul class="title-area">
         <li class="name">
-          <h1><a href="index.html">Fem Banda</a></h1>
+          <h1><a href="index.html" class="internal-link">Fem Banda</a></h1>
         </li>
         <!-- <a id="nav-logo" hidden href="index.html" class="internal-link"><img src="http://placehold.it/45x45&amp;text=[L]" /></a> -->
       </ul>
@@ -41,16 +42,23 @@
           <li class="has-dropdown">
             <a href="#" class="participants-label">[[i18n]] Participants</a>
             <ul class="dropdown">
-              <li><a href="#" class="basis-label internal-link">[[i18n]] Bases</a></li>
-              <li><a href="#" class="enrolment-label internal-link">[[i18n]] Inscripció</a></li>
               <li class="has-dropdown">
+                <a href="rules.html" class="rules-label internal-link">[[i18n]] Bases</a>
+                <ul class="dropdown">
+                  <li><a href="bandcontestrules.html" class="band-contest-label internal-link">[[i18n]] Concurs de Bandes</a></li>
+                  <li><a href="marchingbandrules.html" class="marching-band-contest-label internal-link">[[i18n]] Concurs de Marching Bands</a></li>
+                  <li><a href="festivalrules.html" class="band-festival-label internal-link">[[i18n]] Festival de Bandes</a></li>
+                </ul>
+              </li>
+              <li><a href="enrolment.html" class="enrolment-label internal-link">[[i18n]] Inscripció</a></li>
+              <!-- <li class="has-dropdown">
                 <a href="#" class="participant-bands-label internal-link">[[i18n]] Bandes participants</a>
                 <ul class="dropdown">
                   <li><a href="#" class="band-contest-label internal-link">[[i18n]] Concurs de Bandes</a></li>
                   <li><a href="#" class="marching-band-contest-label internal-link">[[i18n]] Concurs de Marching Bands</a></li>
                   <li><a href="#" class="band-festival-label internal-link">[[i18n]] Festival de Bandes</a></li>
                 </ul>
-              </li>
+              </li> -->
             </ul>
           </li>
 
@@ -59,32 +67,43 @@
           <li class="has-dropdown">
             <a href="#" class="organization-label">[[i18n]] Organització</a>
             <ul class="dropdown">
-              <li><a href="#">[[i18n]] Secció 1</a></li>
-              <li><a href="#">[[i18n]] Secció 2</a></li>
+              <li><a href="management.html" class="festival-management-label internal-link">[[i18n]] Direcció Festival</a></li>
+              <li><a href="jury.html" class="contest-jury-label internal-link">[[i18n]] Tribunal Concurs</a></li>
               <li class="divider"></li>
             </ul>
           </li>
 
           <li class="divider"></li>
 
-          <li><a href="#" class="programme-label internal-link">[[i18n]] Programa</a></li>
+          <li><a href="programme.html" class="programme-label internal-link">[[i18n]] Programa</a></li>
+
           <li class="divider"></li>
+
           <li class="has-dropdown">
             <a href="#" class="multimedia-label">[[i18n]] Galeria</a>
             <ul class="dropdown">
               <li><a href="pictures.html" class="pictures-label internal-link">[[i18n]] Fotos</a></li>
-              <li><a href="videos.html" class="videos-label internal-link">[[i18n]] Videos</a></li>
+              <!-- <li><a href="videos.html" class="videos-label internal-link">[[i18n]] Videos</a></li> -->
               <li class="divider"></li>
             </ul>
           </li>
 
           <li class="divider"></li>
+
+          <!-- <li><a href="events.html" class="events-label internal-link">[[i18n]] Esdeveniments</a></li>
+
+          <li class="divider"></li> -->
         </ul>
 
         <ul class="title-area right">
           <li class="divider"></li>
+
+          <li><a href="sponsors.html" class="sponsors-label internal-link">[[i18n]] Programa</a></li>
+
+          <li class="divider"></li>
+
           <li class="name">
-            <h1><a href="#" class="contact-label internal-link">
+            <h1><a href="contact.html" class="contact-label internal-link">
               [[i18n]] Contacte
             </a></h1>
           </li>

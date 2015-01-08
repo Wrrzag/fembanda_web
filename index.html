@@ -25,7 +25,7 @@
         lang = "";
 
         languageSetup();
-        newsSetup();
+        defNewsSetup();
 
         $('.pics').slick({
           dots: false,
@@ -51,28 +51,32 @@
     <!-- SLIDES -->
     <!-- <div class="row">
     	<div class="large-12 columns"> -->
-        <div id="pictures" class="pics" style="height:75%">
-          <div><img src="http://placehold.it/1600x640&text=[img]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img2]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img3]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img4]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img5]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img6]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img7]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img8]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img9]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img10]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img11]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img12]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img13]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img14]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img15]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img16]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img17]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img18]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img19]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img20]"></div>
-          <div><img src="http://placehold.it/1600x640&text=[img21]"></div>
+        <div id="pictures" class="pics" style="height:75%; background: none repeat scroll 0% 0% #ECECEC;">
+          <div><img src="img/slides/bml_camps_elisis.jpg"></div>
+          <div><img src="img/slides/auditori_sala.jpg"></div>
+          <div><img src="img/slides/bml_sta_cecilia_concert.jpg"></div>
+          <div><img src="img/slides/bml_sta_cecilia.jpg"></div>
+          <!-- <div><img src="http://placehold.it/1920x640&text=[img]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img2]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img3]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img4]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img5]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img6]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img7]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img8]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img9]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img10]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img11]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img12]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img13]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img14]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img15]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img16]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img17]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img18]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img19]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img20]"></div>
+          <div><img src="http://placehold.it/1920x640&text=[img21]"></div> -->
         </div>
   	  <!-- </div>
     </div> -->
@@ -83,7 +87,7 @@
 
     
       <div class="row" style="position:relative">
-        <div class="bgwhite" id="overlap" style="margin-top: -250px; position:absolute;">
+        <div class="bgwhite large-12" id="overlap" style="margin-top: -250px; position:absolute;">
         	<div class="">
             <div class="large-12 columns">
               <h1 class="last-news">Últimes notícies</h1>
@@ -95,7 +99,7 @@
             <div class="large-9 columns bgwhite" role="content" >
               <!-- ACTUAL CONTENT -->
               <div id="posts"></div>
-              <h4><a href="#" class="more-news-label right">+ NOTICIES</a></h4>
+              <h4><a href="news.html" class="internal-link more-news-label right">+ NOTICIES</a></h4>
             </div>
              
             <!-- LATERAL BAR -->
@@ -105,7 +109,7 @@
       </div>
     </div>
 
-
+    <div style="margin-top: 250px;">&nbsp;</div>
     <footer class="" id="footer"></footer>
 
     <script type="text/javascript" src="slick/slick.min.js"></script>

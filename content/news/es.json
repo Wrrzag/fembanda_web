@@ -1,0 +1,25 @@
+{
+    "es" : [
+    {
+        "date" : "01/01/2015",
+        "title" : "Festival Fem Banda",
+        "body" : {
+            "picture" : "content/news/pictures/1.jpg",
+            "nextToPicture" : "<p>El año 2004 el Ayuntamiento de Lleida apuesta por acercar la música de calidad a todos los públicos y impulsa decididamente la música de banda.</p> <p>En el transcurso de las Fiestas de Otoño se presenta el 1r Festival Fem Banda “Germans Roig i Torné”. Desde entonces hemos podido saborear la música en directo y disfrutar la posibilidad de escuchar en nuestra ciudad las mejores Bandas de Música de todo el Estado.</p> <p>Desde el primer momento, la iniciativa tuvo muy buena acogida y des de la Banda Municipal de Lleida (BML) hemos colaborado estrechamente en la organización en cada una de las ediciones. Esto ha comportado que, año tras año, el Festival se convirtiera en un espacio de relaciones sociales muy importante con nuestras sociedades musicales vecinas.</p>",
+            "text" : "<p>Los nuevos tiempos demandan hacer un paso adelante de manera que, coincidiendo con la celebración de nuestro Centenario, proponemos internacionalizar el Fem Banda: <strong>la BML</strong> como miembro de la WASBE, Asociación Mundial de Bandas Sinfónicas, <strong>os invita al Fem Banda <i>Festival Internacional de Bandes de Música de Lleida</i> que se realizará del 2 al 5 de julio de 2015.</strong></p> <p>El Fem Banda 2015 contará con un Concurso de Bandas Sinfónicas en el marco del Auditorio Enric Granados y un Concurso de Marching Bands que se realizará en los Camps Elisis.</p> <p>Las Bandas de Conservatorios, Escuelas de Música y Entidades Culturales también tendrán su espacio propio en el marco del Festival, donde todas la Bandas pueden participar abiertamente.</p> <p>La ciudad de Lleida, con su situación geográfica estratégica, se presenta como un verdadero reclamo turístico internacional, siendo que se encuentra cercana de la cosmopolita Barcelona y del románico del Pirineo.</p> <p>Conseguir que el Fem Banda se convierta en el referente a nivel de Cataluña en Música de Banda es un reto que nos ilusiona y nos motiva a organizar este acontecimiento con el máximo rigor y profesionalidad.</p> <p><strong>¡Os esperamos!</strong></p>"
+        }
+    }],
+    "demo" : [{
+        "date" : "10/12/2014",
+        "title" : "Noticia 7",
+        "body" : {
+            "picture" : "http://placehold.it/400x240&text=[img]",
+            "nextToPicture" : "<p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p><p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>",
+            "text" : "<p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p><p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>"
+        }
+    }
+]}
+
+
+
+
