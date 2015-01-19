@@ -1,21 +1,21 @@
 function sendRegistrationForm(){
-    var text = "Sr/Sra: " + $("#sir-madam").val() + "\n" +
-                "En representacio de: " + $("#representing").val() + "\n" +
-                "En qualitat de: " + $("#as").val() + "\n" +
-                "Amb domicili social: " + $("#social-dom").val() + "\n" +
-                "Numero: " + $("#number").val() + "\n" +
-                "Pis: " + $("#floor").val() + "\n" +
-                "Localitat: " + $("#town").val() + "\n" +
-                "Codi Postal: " + $("#postal-code").val() + "\n" +
-                "Provincia: " + $("#province").val() + "\n" +
-                "CIF: " + $("#CIF").val() + "\n" +
-                "Telefon: " + $("#phone").val() + "\n" +
-                "Fax: " + $("#fax").val() + "\n" +
-                "e-mail: " + $("#mail").val() + "\n" +
-                "web: " + $("#webpage").val() + "\n" +
-                "Modul: " + $('input[name=module]:checked').val() + "\n" +
-                "Director: " + $("#conductor").val() + "\n" +
-                "Numero de musics: " + $("#musician-num").val() + "\n"
+    var text = "Sr/Sra: " + $("#sir-madam").val() + "<br/>" +
+                "En representacio de: " + $("#representing").val() + "<br/>" +
+                "En qualitat de: " + $("#as").val() + "<br/>" +
+                "Amb domicili social: " + $("#social-dom").val() + "<br/>" +
+                "Numero: " + $("#number").val() + "<br/>" +
+                "Pis: " + $("#floor").val() + "<br/>" +
+                "Localitat: " + $("#town").val() + "<br/>" +
+                "Codi Postal: " + $("#postal-code").val() + "<br/>" +
+                "Provincia: " + $("#province").val() + "<br/>" +
+                "CIF: " + $("#CIF").val() + "<br/>" +
+                "Telefon: " + $("#phone").val() + "<br/>" +
+                "Fax: " + $("#fax").val() + "<br/>" +
+                "e-mail: " + $("#mail").val() + "<br/>" +
+                "web: " + $("#webpage").val() + "<br/>" +
+                "Modul: " + $('input[name=module]:checked').val() + "<br/>" +
+                "Director: " + $("#conductor").val() + "<br/>" +
+                "Numero de musics: " + $("#musician-num").val() + "<br/>"
 
 
     $.ajax({
@@ -27,7 +27,7 @@ function sendRegistrationForm(){
           'from_email': $("#mail").val(),
           'to': [
               {
-                'email': 'wrrzag666@gmail.com',
+                'email': 'bandadelleida@gmail.com',
                // 'name': 'RECIPIENT NAME (OPTIONAL)',
                 'type': 'to'
               }
@@ -38,7 +38,8 @@ function sendRegistrationForm(){
         }
       }
      }).done(function(response) {
-       console.log(response); // if you're into that sorta thing
+        alert($("#success").html());
+        console.log(response); // if you're into that sorta thing
  });
     // var link = "mailto:bandamunicipal@paeria.cat"
     //          + "&subject=" + "Inscripcio Fem Banda de " + encodeURI($("#mail").val())
@@ -58,18 +59,19 @@ function sendContactForm(){
           'from_email': $("#mail").val(),
           'to': [
               {
-                'email': 'wrrzag666@gmail.com',
+                'email': 'bandadelleida@gmail.com',
                // 'name': 'RECIPIENT NAME (OPTIONAL)',
                 'type': 'to'
               }
             ],
           'autotext': 'true',
           'subject': "Contacte Fem Banda de " + $("#mail").val(),
-          'html': "Ha enviat el següent missatge: <br/>" + $("#msg").val()
+          'html': "Ha enviat el següent missatge: <br/>" + $("#msg").val().replace(/[\r\n]/g, "<br/>")
         }
       }
      }).done(function(response) {
-       console.log(response); // if you're into that sorta thing
+        alert($("#success").html());
+        console.log(response); // if you're into that sorta thing
  });
     // var link = "mailto:bandamunicipal@paeria.cat"
     //          + "&subject=" + encodeURI("Contacte Fem Banda de " + encodeURI($("#mail").val()))
