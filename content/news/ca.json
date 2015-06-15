@@ -1,6 +1,13 @@
 {
     "ca" : [
     {
+        "date" : "01/06/2015",
+        "title" : "Determinat l'ordre de les bandes al Concurs",
+        "body" : {
+            "text" : "<p>A la ciutat de Lleida, i en concret a la sala 2 de l'Auditori Enric Granados, el dilluns, 1 de juny a les 11:00 hores es realitza el sorteig públic que determina l'ordre d'actuació del Concurs de Bandes Simfòniques.</p><p>Un cop estretes les paperetes, s'estableix el següent ordre:</p><br/><p><strong>Concurs Bandes Simfòniques</strong><ul><li>16:00 h. Orchestre d'Harmonie Varilhes-Foix</li><li>17:00 h. Banda de Música de Manacor</li><li>18:00 h. Sociedad Artístico Musical de Magallón</li></ul></p><br/>"
+        }
+    },
+    {
         "date" : "01/01/2015",
         "title" : "Festival Fem Banda",
         "body" : {
