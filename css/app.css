@@ -88,6 +88,10 @@ section.top-bar-section {
     width:100%;
 }
 
+.slick-dots {
+    bottom:-100px!important;
+}
+
 
 
 
