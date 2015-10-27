@@ -73,9 +73,20 @@ section.top-bar-section {
   background: none repeat scroll 0% 0% #ECECEC;
 }
 
+.pictures div img{
+     height: 500px;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.thumbnails div img {
+    width:200px; height:150px;
+}
 
-
+#pictures div img {
+    width:100%;
+}
 
 
 
