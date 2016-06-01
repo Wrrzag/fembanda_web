@@ -1,4 +1,4 @@
-MAX_NEWS = 2;
+MAX_NEWS = 3;
 
 function _newsSetup(begin, end, pagination){
 	var params = getQueryParams(document.location.search);

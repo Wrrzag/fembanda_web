@@ -1,6 +1,20 @@
 {
     "ca" : [
     {
+        "date" : "02/06/2016",
+        "title" : "Concurs 'Fes el teu instrument'",
+        "body" : {
+            "text" : "<p>Amb motiu del Festival Internacional de Bandes de Música de Lleida, la Banda Municipal convoca un concurs d’arts plàstiques. La finalitat del concurs és fomentar valors lligats a l’educació mediambiental, tot explorant la creativitat i la imaginació. Us encoratgem a crear el vostre propi instrument de música artesanalment amb objectes i materials reciclats.</p><p>Pots consultar les bases a <a href='contest.html'>l'apartat corresponent</a>"
+        }
+    },
+    {
+        "date" : "06/05/2016",
+        "title" : "Ordre del concurs",
+        "body" : {
+            "text" : "<p>A la ciutat de Lleida, i en concret a la sala 2 de l’Auditori Enric Granados, el divendres,6 de maig a les 21:00 hores  es realitza  el sorteig públic que determina l’ordre d’actuació del Concurs de Bandes Simfòniques.</p><p>Un cop estretes les paperetes, s’estableix el següent ordre:</p><p><strong>Concurs Bandes Simfòniques</strong><br/><ul><li>16:00 h.   BANDA SIMFÒNICA ROQUETES NOU-BARRIS</li><li>16:45 h.    AGRUPACIÓ MUSICAL L’ALCALATÉN D’ALCORA</li><li>17:30 h. BANDA SIMFÒNICA DE REUS</li><li>18:30 h.    ORCHESTRE D’HARMONIE DE L’UNION DE TOULOUSSE</li></ul></p>"
+        }
+    },
+    {
         "date" : "28/10/2015",
         "title" : "Fem Banda 2016",
         "body" : {

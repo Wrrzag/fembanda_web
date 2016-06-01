@@ -87,6 +87,7 @@
         "webpage-error" : "El format de la pàgina web ha de ser correcte",
         "conductor-name-error" : "El nom del(s) director(s) és necessari",
         "musician-num-error" : "El número de músics és necessari",
+        "do-it-yourself-label" : "Fes el teu instrument",
 
         "copyright-statement" : "© 2014 Fem Banda",
         "developed-by" : "Desenvolupat per"
