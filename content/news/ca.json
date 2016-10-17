@@ -1,17 +1,24 @@
 {
     "ca" : [
     {
+        "date" : "17/10/2016",
+        "title" : "Publicació de les bases",
+        "body" : {
+            "text" : "<p>Ja tenim les bases del festival a l'abast.</p><p>Animeu-vos!!!</p><p>Bases: <a href='rules.html'></p>"
+        }
+    }        
+    {
         "date" : "04/10/2016",
         "title" : "XIV edició del Fem Banda",
         "body" : {
-            "text" : "<p>XIV edició del Fem Banda del 30 de juny al 2 de juliol de 2017.</p><p>Les bases es publicaran abans del 15 d'octubre de 2016."
+            "text" : "<p>XIV edició del Fem Banda del 30 de juny al 2 de juliol de 2017.</p><p>Les bases es publicaran abans del 15 d'octubre de 2016.</p>"
         }
     },
     {
         "date" : "02/06/2016",
         "title" : "Concurs 'Fes el teu instrument'",
         "body" : {
-            "text" : "<p>Amb motiu del Festival Internacional de Bandes de Música de Lleida, la Banda Municipal convoca un concurs d’arts plàstiques. La finalitat del concurs és fomentar valors lligats a l’educació mediambiental, tot explorant la creativitat i la imaginació. Us encoratgem a crear el vostre propi instrument de música artesanalment amb objectes i materials reciclats.</p><p>Pots consultar les bases a <a href='contest.html'>l'apartat corresponent</a>"
+            "text" : "<p>Amb motiu del Festival Internacional de Bandes de Música de Lleida, la Banda Municipal convoca un concurs d’arts plàstiques. La finalitat del concurs és fomentar valors lligats a l’educació mediambiental, tot explorant la creativitat i la imaginació. Us encoratgem a crear el vostre propi instrument de música artesanalment amb objectes i materials reciclats.</p><p>Pots consultar les bases a <a href='contest.html'>l'apartat corresponent</a></p>"
         }
     },
     {
