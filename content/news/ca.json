@@ -1,6 +1,14 @@
 {
     "ca" : [
     {
+        "date" : "12/03/2017",
+        "title" : "Fes el teu instrument!",
+        "body" : {
+            "picture" : "content/news/pictures/lamevamusica.png",
+            "text" : "<p>Construeix el teu instrument amb objectes o material reciclat i fes-nos-el arribar al c/Del Riu, 6 de Lleida.</p> <p><strong>Tens temps fins al 2 de maig!</strong></p> <p>No oblidis consultar les <a href='content/rules/bases_concurs_instrument_2017.pdf'>bases del concurs</a>.</p>
+        }
+    },
+    {
         "date" : "17/10/2016",
         "title" : "Publicació de les bases",
         "body" : {
