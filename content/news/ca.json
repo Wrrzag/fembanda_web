@@ -1,6 +1,13 @@
 {
     "ca" : [
     {
+        "date" : "27/11/2017",
+        "title" : "Publicació de les bases",
+        "body" : {
+            "text" : "<p>Ja tenim les bases del festival a l'abast.</p><p>Animeu-vos!!!</p><p><a href='rules.html'>Bases</a></p>"
+        }
+    },
+    {
         "date" : "12/03/2017",
         "title" : "Fes el teu instrument!",
         "body" : {
