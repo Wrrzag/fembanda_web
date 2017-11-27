@@ -1,6 +1,12 @@
 {
     "es" : [
-    
+    {
+        "date" : "27/11/2017",
+        "title" : "Publicacion de las bases",
+        "body" : {
+            "text" : "<p>Ya tenemos las bases del concurso disponibles.</p><p>Animaros!!!</p><p><a href='rules.html'>Bases</a></p>"
+        }
+    },
     {
         "date" : "01/01/2015",
         "title" : "Festival Fem Banda",
